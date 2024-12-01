@@ -1,0 +1,28 @@
+{
+    "name": "lr5-task2",
+    "version": "1.0.3",
+    "main": "scripts/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "watch": "webpack --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "This library is designed to work with arrays to search for the minimum and maximum elements of an array, as well as to search for the sum of its elements.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Andreytyag/lr5givd.git"
+    },
+    "keywords": [
+        "array",
+        "sum"
+    ],
+    "dependencies": {
+        "task2": "file:"
+    },
+    "devDependencies": {
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4"
+    }
+}
